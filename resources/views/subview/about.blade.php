@@ -1,8 +1,8 @@
 
 <div class="d-flex justify-content-center">
     <div class="col-md-9 mt-3 token-tables">
-        <div class="d-flex justify-content-center">
-            <img src="https://seeklogo.com/images/T/the-spongebob-logo-27F781E89E-seeklogo.com.png" alt="the" srcset="">
+        <div class="d-flex justify-content-center mt-5">
+            <img src="https://seeklogo.com/images/T/the-spongebob-logo-27F781E89E-seeklogo.com.png" alt="the" srcset="" style="width:500px;height:auto;">
         </div>
     </div>
 </div>
