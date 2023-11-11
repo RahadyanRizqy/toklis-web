@@ -1,7 +1,9 @@
 
 <div class="d-flex justify-content-center">
     <div class="col-md-9 mt-3 token-tables">
-        <h1 class="text-center">The...</h1>   
+        <div class="d-flex justify-content-center">
+            <img src="https://seeklogo.com/images/T/the-spongebob-logo-27F781E89E-seeklogo.com.png" alt="the" srcset="">
+        </div>
     </div>
 </div>
 <script>

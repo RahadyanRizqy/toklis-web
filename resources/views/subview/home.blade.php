@@ -110,14 +110,14 @@
                         @if ($item->token_status == 0)
                             {{-- <td scope="col">{{ $i++ }}</td> --}}
                             <td scope="col">{{ $item->id }}</td>
-                            <td scope="col">{{ $item->token_number }}</td>
+                            <td scope="col">{{ chunk_split($item->token_number, 4, ' ') }}</td>
                             <td scope="col">Belum Terpakai</td>
                             <td scope="col">{{ $item->purchased_date }}</td>
                             <td scope="col">{{ $item->cost }}</td>
                         @else
                             {{-- <td scope="col" style="background-color: #FF7276;">{{ $i++ }}</td> --}}
                             <td scope="col" style="background-color: #FF7276;">{{ $item->id }}</td>
-                            <td scope="col" style="background-color: #FF7276;">{{ $item->token_number }}</td>
+                            <td scope="col" style="background-color: #FF7276;">{{ chunk_split($item->token_number, 4, ' ') }}</td>
                             <td scope="col" style="background-color: #FF7276;">Terpakai</td>
                             <td scope="col" style="background-color: #FF7276;">{{ $item->purchased_date }}</td>
                             <td scope="col" style="background-color: #FF7276;">{{ $item->cost }}</td>
